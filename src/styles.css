@@ -1,1 +1,235 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family:'Noto Sans JP', ;
+    min-height: 75rem;
+    padding-top: 0rem;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+      font-family: 'Noto Sans JP'!important ;
+  }
+  p {
+      font-size: 18px;
+      font-family: 'Noto Sans JP'!important;
+  }
+  ul li{
+    font-family: 'Noto Sans JP'!important;
+    font-size: 18px;
+  
+  }
+  ol li{
+    font-family: 'Noto Sans JP'!important;
+    font-size: 18px;
+  
+  }
+  
+  
+ 
+  
+    /*Inicio estilos compomente home*/
+
+  
+  .hero-img{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+            min-width: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  .boton{
+    position: absolute;
+      left: 40px;
+      bottom:10px;
+      background-color:rgba(45,170,252,0.7);
+  }
+  .position{
+    position: absolute;
+    top:0.5px;
+    right: 100px;
+
+    
+  }
+  .navbar-brand{
+    position: absolute;
+    top:0.5px;
+    left:30px;
+  }
+  .barra{
+    background-color:#0095e5;
+  }
+  .redes a{
+    color:white;
+    font-size: 30px;
+  
+  }
+  
+  .redes a:hover{
+    color:  #4ddbff;
+    font-size: 30px;
+  
+  }
+  
+  
+  
+  
+  .adress label{
+    color:white;
+    font-size: 32px;
+    left:30px;
+  }
+  
+  .adress label:hover{
+    color:  #4ddbff;
+  }
+  
+  .adress p {
+    color:white;
+    font-size:18px;
+  }
+  
+  /*Fin estilos componente home*/
+  
+ 
+  
+  
+ 
+  
+  /*Inicio estilos footer*/
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 2px;
+    color:#0095e5;
+  } 
+  
+  .footer{
+    background-color: black;
+    list-style: none;
+    color:white;
+  }
+  /*fin estilos footer*/
+  
+  
+  /* inicio Estilos componente beneficios*/
+  
+  .contenedor-beneficios{
+  background-color:#0095e5;
+  }
+  
+  
+  .beneficios{
+    background-color:#0095e5;
+    color:white;
+    
+  }
+  .beneficios label{
+    font-size: 80px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 75px 75px 75px 75px;
+  }
+  
+  
+  
+  .beneficios label:hover{
+    background-color: white;
+    color:#0095e5;
+  
+  }
+  /*Fin estilos componente Beneficios*/
+  
+  /*Inicio estilos componente servicios*/
+  
+  .title-servicios{
+    color:#0095e5;
+    background-color: white;
+    font-size: 65px;
+  
+    
+  }
+  
+  .servicios{
+    background-color:#0095e5;
+  
+  }
+  .contenedor-servicios{
+  background-color:gray;
+  
+  
+    
+  }
+  
+  .menu-vertical a{
+    color:white;
+    font-size: 20px;
+    background-color:gray;
+   ;
+    
+  
+  }
+  .menu-vertical a:hover{
+    color:black;
+    background-color: #0095e5;
+    
+  }
+  
+  .background-servicios{
+    background-color: blue;
+  }
+  .alert-primary{
+    background-color:rgba(45,170,252,0.3) !important;
+    color:white;
+    font-size:20px;
+  
+  
+  }
+  
+  .alert-primary label{
+    color:#F5C205 !important;
+    font-size: 28px;
+  
+  }
+  .font-servicios h3{
+    color:white;
+    font-weight: 600;
+    
+  }
+  .font-servicios h4{
+    color:silver;
+    font-weight: 700;
+    
+  }
+  
+  
+  
+  
+  
+  .font-servicios ul li{
+    color:black;
+    font-size:15px;
+    font-weight: 500;
+    
+  }
+  
