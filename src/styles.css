@@ -111,8 +111,20 @@ body {
     /*Inicio estilos componente agendar*/
 
     .agendar{
-      background-color: #0095e5;
+      background-color: rgba(45,170,252,0.7);
+      width:100%;
     }
+
+    .cotizar{
+      background-color:#0095e5;
+    }
+    .cotizar p{
+      color:white;
+    }
+    .cotizar h1{
+      color:white !important ;
+    }
+    
     /*Fin estilos componente agendar*/
     
 
