@@ -9,6 +9,8 @@ import { TerapiaParejaComponent } from './services/terapia-pareja/terapia-pareja
 import { TerapiaAdolescentesComponent } from './services/terapia-adolescentes/terapia-adolescentes.component';
 import { TerapiaIndividualComponent } from './services/terapia-individual/terapia-individual.component';
 import { FormularioComponent } from './contacto/formulario/formulario.component';
+import { MenuComponent } from './shared/menu/menu.component';
+
 
 
 
@@ -25,6 +27,8 @@ const routes: Routes = [
   { path: 'terapiaindividual', component: TerapiaIndividualComponent},
   { path: 'formulario', component: FormularioComponent},
   { path: 'home', component: HomeComponent },
+  { path: 'menu', component: MenuComponent },
+
 
   { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
