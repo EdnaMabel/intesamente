@@ -117,12 +117,18 @@ body {
       background-color:#8ffafd;
       opacity: 0,3;
   }
-  .cotizar{
-    background-color:#1f86fc;
+  
+ 
+  .button-jumbotron{
+    background-color: #024cb5;
     color:white;
   }
- 
 
+  .button-jumbotron:hover{
+    background-color: #1f86fc;
+    color:black;
+
+  }
   /*Fin estilos componente home*/
 
 
@@ -164,14 +170,22 @@ body {
     margin-right: 10px;
     border-style: ridge;
     border-width: 2px;
-    color:#024cb5;
+    color:#1ff5f5;
   } 
   
+  
   .footer{
-    background-color:#00134e;
+    background-color:#024cb5;
     list-style: none;
     color:white;
   }
+  .adress-fondo{
+    background-color:rgba(0,0,0,0.1);
+    list-style: none;
+    color:white;
+  }
+  
+
   /*fin estilos footer*/
   
   
@@ -206,7 +220,7 @@ body {
   /*Inicio estilos componente servicios*/
   
   .title-servicios{
-    color:#0095e5;
+    color:#024cb5;
     background-color: white;
     font-size: 65px;
   
@@ -218,15 +232,12 @@ body {
   
   }
   .contenedor-servicios{
-  background-color:#00134e;
-  
-  
+  background-color:#024cb5;
     
   }
+  
 
-  .contenedor-servicios::before{
-    opacity: 0.2;
-  }
+ 
   
   .menu-vertical a{
     color:white;
@@ -279,10 +290,13 @@ body {
   }
   
   /** INICO Estilos  generales landing pages**/
+  .descripcion-fondo{
+    background-color:#024cb5;
+  }
   .descripcion{
-    position: absolute;
+   
       bottom:1px;
-      background-color:rgba(45,170,252,0.7);
+      background-color:#8ffafd;
     
   }
   .descripcion h5{
@@ -301,5 +315,8 @@ body {
 .descripcion ul li {
   font-size: 13px;
   
+}
+.form-background{
+  background-color:#1ff575;
 }
     /** fIN Estilos  generales landing pages**/
