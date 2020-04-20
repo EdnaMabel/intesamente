@@ -293,6 +293,14 @@ body {
   .descripcion-fondo{
     background-color:#024cb5;
   }
+  .font-descripcion h3{
+    color: white;
+  }
+
+  .font-descripcion ul li{
+    color: white;
+  }
+  
   .descripcion{
    
       bottom:1px;
