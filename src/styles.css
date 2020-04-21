@@ -7,7 +7,10 @@ body {
   
   h1,h2,h3,h4,h5,h6 {
       font-family: 'Noto Sans JP'!important ;
+      font-weight: bold;
+      
   }
+  
   p {
       font-size: 18px;
       font-family: 'Noto Sans JP'!important;
@@ -31,7 +34,7 @@ body {
   }
 
   .font li a{
-    color: #1f86fc!important;
+    color: #f5c205!important;
   }
   .font li a:hover{
     color: white !important;
@@ -50,7 +53,7 @@ body {
   }
   
   .redes a:hover{
-    color:  #1f86fc;
+    color:#f5c205;
     font-size: 30px;
   
   }
@@ -65,7 +68,7 @@ body {
   }
   
   .adress label:hover{
-    color:  #1f86fc;
+    color:#f5c205;
   }
   
   .adress p {
@@ -114,8 +117,14 @@ body {
     position: absolute;
       left: 40px;
       bottom:10px;
-      background-color:#8ffafd;
+      background-color:#f5c205;
       opacity: 0,3;
+  }
+
+   .boton hr{
+  
+      color:#024cb5;
+     
   }
   
  
@@ -148,6 +157,7 @@ body {
     }
     .cotizar h1{
       color:white !important ;
+      font-weight: bold;
     }
     
     /*Fin estilos componente agendar*/
@@ -298,32 +308,20 @@ body {
   }
 
   .font-descripcion ul li{
+   
+    list-style-image: url(../src/assets/imagenes/flecha-amarilla.png);
     color: white;
+   
   }
   
   .descripcion{
    
       bottom:1px;
-      background-color:#8ffafd;
+      background-color:#f5c205;
     
   }
-  .descripcion h5{
-    color: white;
-  
-
-
-  }
  
-  .descripcion h6{
-    color: whitesmoke;
 
-  }
-  
-
-.descripcion ul li {
-  font-size: 13px;
-  
-}
 .form-background{
   background-color:#1ff575;
 }
