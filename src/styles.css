@@ -305,8 +305,20 @@ body {
   }
   .font-descripcion h3{
     color: white;
+    font-weight:bold;
+
+  }
+  .font-descripcion h4{
+    color: white;
+    font-weight: bold;
   }
 
+
+  .font-descripcion p{
+    color: white;
+    font-size: 18px;
+
+  }
   .font-descripcion ul li{
    
     list-style-image: url(../src/assets/imagenes/flecha-amarilla.png);
@@ -318,6 +330,7 @@ body {
    
       bottom:1px;
       background-color:#f5c205;
+      vertical-align: middle !important;
     
   }
  
