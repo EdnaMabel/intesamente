@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AppRoutingModule } from '../app-routing.module';
 import { TerapiaParejaComponent } from './terapia-pareja/terapia-pareja.component';
 import { TerapiaIndividualComponent } from './terapia-individual/terapia-individual.component';
 import { PsicologiaInfantilComponent } from './psicologia-infantil/psicologia-infantil.component';
@@ -15,7 +16,8 @@ import { SharedModule } from '../shared/shared.module';
  
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    AppRoutingModule
   
   
     

@@ -34,7 +34,7 @@ body {
   }
 
   .font li a{
-    color: #f5c205!important;
+    color: #1f86fc!important;
   }
   .font li a:hover{
     color: white !important;
@@ -108,7 +108,7 @@ body {
     }
     
     .dropdown-content a {
-      color:white;
+      color:#1f86fc;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
@@ -145,20 +145,51 @@ body {
     /*Inicio estilos componente agendar*/
 
     .agendar{
-      background-color:#1f86fc;
+      background-color:#024cb5;
       width:100%;
     }
 
     .cotizar{
-      background-color:#024cb5;
+      background-color:#1f86fc;
     }
-    .cotizar p{
+    .agendar p{
       color:white;
+    }
+    .agendar h1{
+      color:white !important ;
+      font-weight: bold;
+    }
+    .agendar h2{
+      color:white !important ;
+      font-weight: bold;
     }
     .cotizar h1{
       color:white !important ;
       font-weight: bold;
+
     }
+    .cotizar p{
+      color:white !important ;
+      font-weight: bold;
+
+    }
+
+    .agendar-boton{
+    background-color:#f5c205;
+    Color:black;
+    font-weight: bold;
+    box-shadow: rgba(0,0,0,0.7);
+
+    }
+
+    .agendar-boton:hover{
+      background-color:#024cb5;
+      Color:white;
+      font-weight: bold;
+      box-shadow: rgba(0,0,0,0.7);
+  
+      }
+  
     
     /*Fin estilos componente agendar*/
     
@@ -195,6 +226,20 @@ body {
     color:white;
   }
   
+  .footer-icons label{
+    font-size:30px;
+    color:white;
+  
+  }
+
+
+  .footer-icons label:hover{
+    font-size:30px;
+    color:#F5C205;
+  
+  }
+
+
 
   /*fin estilos footer*/
   
@@ -338,4 +383,11 @@ body {
 .form-background{
   background-color:#1ff575;
 }
-    /** fIN Estilos  generales landing pages**/
+  /** fIN Estilos  generales landing pages**/
+
+/**Inicio estilos formulario **/
+    .formulario{
+      background-color:#1f86fc;
+    }
+    
+/**fin estilos formulario**/
